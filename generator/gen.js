@@ -52,7 +52,6 @@ import { promises as fs } from 'fs';
       console.log('skip ' + iconset);
       continue;
     }
-    if (iconset == 'fluent') continue;
 
     // Read file
     // if (iconset == "flat-color-icons.json") {
